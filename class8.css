@@ -1,0 +1,389 @@
+*{
+	outline:0;
+}
+
+body,ul,ol,a,li,h1,h2,h3{
+	margin:0px;
+	padding:0px;
+	outline:0px;
+}
+body{
+	background-color:#F1E7FE;
+	font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
+}
+.menu{
+background-color:red;	
+display:flex;
+text-align:center;
+position:fixed;
+width:100%;
+top:0px;
+
+}
+.left {
+	width:60%;
+	font-family:none;
+}
+.right {
+	width:40%;
+	font-family:none;
+}
+.left ul{
+	display:inline-flex;
+	list-style:none;
+	
+}
+.left ul li{
+	width:120px;
+	height:50px;
+	line-height:50px;
+	border-radius:30px;
+	border-bottom:2px solid transparent;
+	border-right:1px solid white;
+}
+.left ul li span:nth-child(1) {
+	margin-right:8px;
+	
+}
+/* .left ul li span:nth-child(2) { */
+	/* margin-right:25px; */
+/* } */
+.left ul li a{
+	text-decoration:none;
+	color:white;
+	font-size:19px;
+	display:block;
+}
+.left ul li:hover{
+	background-color:#404040;
+	color:#7f8c8d;
+	border-bottom:2px solid #ffffff;
+}
+.left ul li a:hover{
+
+	font-weight:bold;
+}
+.left ul li.active{
+	background-color:black;
+}
+
+	
+.sub_menu{
+	display:none;
+}
+.sub_menu ul{
+	display:block;
+}
+.qq:hover .sub_menu{
+	display:block;
+	background-color:red;
+	border-radius:15px;
+	
+}
+/* .qq span{ */
+	/* margin-left:15px; */
+	/* font-size:14px; */
+/* } */
+	/* sub menu part 02 start */
+
+.sub_menu2{
+	display:none;
+	
+}
+.sub_menu2 ul{
+	display:block;
+	background:red;
+	border-radius:15px;
+}
+.bb{
+	position:relative;
+}
+.bb:hover .sub_menu2{
+	display:block;
+	position:absolute;
+	top:0px;
+	left:121px;
+}
+.bb span{
+	margin-left:5px;
+	font-size:14px;
+	
+}
+		/* sub menu part 02 end */
+		/* sub menu part-03 start */
+.sub_menu3{
+	display:none;
+}
+.zhd{
+	position:relative;
+}
+.zhd:hover .sub_menu3{
+	display:block;
+	position:absolute;
+	top:0px;
+	left:121px;
+}
+.zhd span{
+	margin-left:5px;
+	font-size:14px;
+}	
+		/* sub menu part-03 end */
+
+		/* Social icon right_menu bar start */
+.right ul{
+	display:inline-flex;
+	list-style:none;
+	
+}
+.right ul li{
+	width:50px;
+	height:40px;
+	line-height:40px;
+	margin-top:5px;
+}
+.right ul li a{
+	text-decoration:none;
+	color:white;
+	border-radius:50%;
+	width:40px;
+	height:40px;
+	background-color:#C71585;
+	display:block;
+	line-height:40px;
+}
+.right ul li:nth-child(1):hover a{
+	background-color:#139EF8;
+}
+.right ul li:nth-child(2):hover a{
+	background-color:#FE0000;
+}
+.right ul li:nth-child(3):hover a{
+	background-color:#50ABF1;
+}
+.right ul li:nth-child(4):hover a{
+	background-color:#953BB7;
+}
+/* Social icon right_menu bar end */
+/* background image start */
+.banner{
+	
+	background:url(image/web.jpeg);
+	height:500px;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+/* background image end */
+.content{
+	width:95%;
+	margin:auto;
+}
+.content h1{
+	text-align:center;
+	font-family:none;
+	color:#953BB7;
+	font-family: 'Playfair Display', serif;	
+}
+.content p:nth-child(2){
+	font-family: 'Playfair Display', serif;	
+}
+.content p:nth-child(4){
+	font-family: 'Playfair Display', serif;	
+	color:red;
+}
+.content p:nth-child(6){
+	font-family: 'Playfair Display', serif;	
+	background-color:yellow;
+}
+		/*Form Design start*/
+		/*Form Design start*/
+		
+.form_head{
+	height:650px;
+	background-color:#404080;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+.form_sub{
+	font-family: 'Raleway', sans-serif;
+	height:560px;
+	width:500px;
+	background-color:#C71585;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin:auto;
+	color:white;
+	
+	
+}
+caption{
+	font-weight:bold;
+}
+
+.form_sub form{
+
+
+}
+.form_sub input{
+	margin-top:7px;
+	margin-bottom:15px;
+	width:300px;
+	height:20px;
+	padding:3px 5px;
+	border-bottom-left-radius:25px;
+    border-top-right-radius:25px;
+	border:2px solid yellow;
+}
+.form_sub input::placeholder{
+	padding-left:3px;
+	color:#404080;
+}
+/* .form_sub form label:last-child{ */
+	/* font-weight:bold; */
+/* } */
+.form_sub textarea{
+	border-top-right-radius:25px;
+	border-top-left-radius:25px;
+}
+.form_sub label{
+	font-size:14px;
+	color:white;
+}
+button{
+	width:100px;
+	height:40px;
+	border-radius:20px;
+	background-color:#404080;
+	color:white;
+	margin:auto;
+	font-family: 'Raleway', sans-serif;
+	font-weight:bold;
+	border:1px solid #404080;
+	
+}
+form span{
+		display:flex;
+	justify-content:center;
+	align-items:center;
+}
+form span button:hover{
+	background-color:red;
+	border:1px solid red;
+	transition:all linear .3s;
+}
+.form_sub{
+	transition:all linear .3s;
+	border-radius:5px;
+}
+.form_sub:hover{
+	box-shadow:3px 3px 40px black;
+	transition:all linear .3s;
+}
+		/*Form Design End*/
+
+		/* Form Design 02 Start 2021*/
+		/* Form Design 02 Start 2021*/
+		
+.form_heads{
+	height:650px;
+	background-color:#404080;
+	display:flex;
+	justify-content:center;
+	align-items:center;	
+	
+}
+.form_subs{
+	font-family: 'Raleway', sans-serif;
+	height:560px;
+	width:500px;
+	background-color:#C71585;
+	
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin:auto;
+	color:white;
+	
+}
+caption{
+	font-weight:bold;
+}
+
+.form_subs form{
+
+
+}
+.form_subs input{
+	margin-top:7px;
+	margin-bottom:15px;
+	width:300px;
+	height:20px;
+	padding:3px 5px;
+	border:none;
+	border-bottom:1px solid yellow;
+	background:transparent;
+	
+
+	
+	
+}
+.form_subs input::placeholder{
+	padding-left:3px;
+	color:#404080;
+
+}
+
+.form_subs textarea{
+	border-top-right-radius:25px;
+	border-top-left-radius:25px;
+	background:transparent;
+	border:none;
+	border-bottom:1px solid yellow;
+}
+.form_subs label{
+	font-size:14px;
+	color:#ffffff;
+}
+.form_subs button{
+	width:100px;
+	height:40px;
+	border-radius:20px;
+	background-color:#404080;
+	color:white;
+	margin:auto;
+	font-family: 'Raleway', sans-serif;
+	font-weight:bold;
+	border:1px solid #404080;
+	
+}
+.form_subs form span{
+		display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.form_subs form span button:hover{
+	background-color:red;
+	border:1px solid red;
+	transition:all linear .3s;
+	
+}
+.form_subs{
+	box-shadow:3px 3px red,5px 5px white;
+	border-radius:5px;
+	transition:all linear .3s;
+	
+}
+.form_subs:hover{	
+	background:linear-gradient(red,orange,green);
+	transition:all linear .3s;
+	border-top-left-radius:50px;
+	border-top-right-radius:50px;
+}
+
+
+
