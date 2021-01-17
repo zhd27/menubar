@@ -1,0 +1,155 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    outline: 0px;
+}
+a,a:hover{
+    text-decoration: none;
+}
+
+.navbar-nav .nav-item .nav-link{
+    font-size: 18px;
+    font-family: monospace;
+    color: white;
+    font-weight: 400;
+    padding: 13px 25px;
+    border-right:.5px solid gray;
+    border-radius: 5px;
+}
+.navbar{
+    padding: 0px;
+    background-color:#234E70
+}
+.navbar-brand{
+    padding: 0px;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: black;
+    background-color: white;
+ 
+}
+.navbar-nav .nav-item .nav-link.active{
+    color: blue;
+    background-color: white;
+}
+.navbar-nav .nav-item .nav-link.active:hover{
+    color: red;
+}
+.carousel-item img{
+    height: 450px;
+}
+.aboutuslogo img{
+    width: 550px;
+}
+.carousel-caption h2{
+    color: ;
+    font-size: 40px;
+    line-height: 60px;
+  
+}
+.carousel-caption p{
+    color:yellow;
+    font-size: 18px;
+}
+.uscontent p{
+    line-height: 35px;
+    text-align: justify;
+    font-family: sans-serif;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.card-body a{
+    text-align: center;
+    display: block;
+}
+.yes h2{
+ text-transform: uppercase;
+    background-color: #234E70;
+    color: white;
+    margin-bottom: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 4px 0px;
+
+}
+.good:hover img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.45); 
+    transition: all linear .3s;
+}
+.yyy{
+    background-color: #212529;
+}
+.yyy:hover{
+    background-color: yellowgreen;
+
+}
+.yyy:hover .card-link{
+        color: black;
+}
+.yap{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+.msg img{
+    height: 400px;
+} 
+.for{
+    padding: 20px 140px;
+      background-color: rgba(35, 78, 112, 1);
+    
+ 
+}
+form{
+
+  
+}
+input{
+    
+    background:transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    
+}
+label{
+    color: white;
+}
+textarea{
+    border-radius: 10px;
+    border: 1px solid yellow;
+}
+button{
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin: auto;
+    display: block;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    color: black;
+
+
+    
+}
+
+input::placeholder{
+    color: gainsboro;
+    font-size: 10px;
+    padding: 0px 5px;
+}
+textarea{
+    padding:13px 4px;
+}
+.uylab{
+    line-height: normal;
+}
+.why{
+    background-color: #ACCF50;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
