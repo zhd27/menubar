@@ -129,9 +129,8 @@ button{
     border: none;
     font-weight: bold;
     color: black;
-
-
-    
+    border:none;
+    outline:none;
 }
 
 input::placeholder{
